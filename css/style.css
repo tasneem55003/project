@@ -1,0 +1,809 @@
+* {
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+.container11{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/badminton-1428046_1920.jpg);
+    background:cover ;
+    position: relative;
+}
+.start-content{
+
+}
+.start-overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+}
+.srart-iteam{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%,-70%);
+}
+.title1{
+    font-size: 45px;
+}
+.start-iteam-btn1{
+    height: 45px;
+    width: 130px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: white;
+    background-color: white;
+    color: blue;
+    margin-left: 175px;
+    cursor: pointer;
+}
+.start-iteam-btn1:hover{
+    opacity: 0.8;
+}
+.start-iteam-btn2{
+    height: 45px;
+    width: 130px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: blue;
+    background-color: blue;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.start-iteam-btn2:hover{
+    opacity: 0.8;
+}
+.start-iteam-text{
+    font-size: x-large;
+    color: rgb(180, 163, 163);
+    margin-top: -25px;
+    margin-left: 100px;
+}
+.start-header{
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background-color: rgb(1, 16, 1);
+    opacity: 0.5;
+    position: absolute;
+    position: fixed;
+    z-index: 30;
+}
+.start-header-title{
+    color: white;
+    float: left;
+    margin:10px 50px;
+}
+.start-header-list{
+    float: right;
+    margin-right: 30px;
+}
+.start-header-list li{
+    margin-right: 40px;
+    list-style: none;
+    display: inline-block;
+}
+.start-header-list li a{
+    text-decoration: none;
+    color: rgb(180, 163, 163);
+}
+
+
+
+
+
+
+/* ----------section1------- */    
+.container1{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+.fully{
+    overflow: auto;
+}
+.fully-title{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 70px;
+}
+.fully-mark{
+    height: 5px;
+    width: 70px;
+    background-color: blue;
+    margin: -30px 540px;
+}
+.fully-iteam{
+    display: block;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    border:solid 1px gray;
+    float: left;
+    font-size: x-large;
+    margin-top: 200px;
+    position: relative;
+}
+.fully-iteam i{
+    color: rgb(66, 112, 227);
+    font-size: xx-large;
+    margin-top: 30px;
+}
+.fully-iteam-p{
+    color: gray;
+    margin-top: -18px;
+    font-size: large;
+}
+.fully-iteam a{
+    text-decoration: none;
+    color: rgb(66, 112, 227);
+}
+.mm{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.fully-iteam:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    z-index: -1;
+}
+.fully-iteam:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    transition: 0.8s;
+}
+.fully-iteam:hover .fully-iteam-title{
+    color: white;
+}
+         /* ------------------------------------------------------------------------------------------------------------------------ */
+.container2{
+   background-color: rgb(244, 235, 235);
+}
+.sport-content{
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+}
+.sport-iteam{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+.sport-iteam-mark{
+    display: block;
+    height: 5px;
+    width: 65px;
+    background-color: blue;
+    margin: -30px 510px;
+}
+.sport-iteam-images{
+    display: block;
+    width: 30%;
+    text-align: center;
+    float: left;
+    position: relative;
+    margin-top: 50px;
+    height: 400px;
+    z-index: 5;
+}
+.sport-iteam-images img{
+    width: 100%;
+    height: 400px;
+}
+.sport-overlay{
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+.im{
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+.sport-iteam-images:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    background-color: black;
+    opacity: 0;
+}
+.sport-iteam-images:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    transition: 0.9s;
+}
+.sport-iteam-images:hover .sport-overlay{
+    visibility: visible;
+}
+.sport-iteam-p1{
+    font-size: large;
+    color: rgb(66, 112, 227);
+}
+.sport-iteam-p2{
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+}
+.sport-overlay i{
+    width: 40px;
+    height: 40px;
+    font-size: large;
+    color: blue;
+    line-height: 40px;
+    background-color:rgb(66, 112, 227) ;
+    cursor: pointer;
+}
+.sport-iteam-images:hover .sport-overlay .sport-iteam-p1{
+    transition: 1s;
+}
+.sport-iteam-images:hover .sport-overlay .sport-iteam-p2{
+    transition: 2s;
+}
+.sport-iteam-images:hover .sport-overlay i{
+    transition: 3s;
+}
+
+        /* ---------------- */
+.container3{
+   
+}
+.offer-content{
+    overflow: auto;
+     width: 80%;
+    margin: auto;
+}
+.title-iteam{
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+    margin: 70px 0px;
+}
+.offer-iteam-mark{
+    display: block;
+    height: 5px;
+    width: 70px;
+    background-color: blue;
+    margin: -30px 520px;
+}
+.offer-iteam{
+    display: block;
+    border: solid 1px gray;
+    float: left;
+    width: 30%;
+    height: 200px;
+    margin-top: 50px;
+    padding: 33px 25px;
+    position: relative;
+    z-index: 13;
+}
+.offer-iteam-title{
+    display: inline;
+    font-size: 25px;
+}
+.offer-iteam i{
+    font-size: xx-large;
+    color: rgb(66, 112, 227) ;
+    margin-right: 10px;
+}
+.offer-iteam-text{
+    color: gray;
+    margin-left: 47px;
+    font-size: 20px; 
+}
+.of1{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.offer-iteam:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    z-index: -1;
+}
+.offer-iteam:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    transition: 1s;
+}
+.offer-iteam:hover .offer-iteam-title{
+    color: white;
+}
+        /* ----------------section4----------------- */
+.container4{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+.choose-content{
+    overflow: auto;
+}
+.choose-iteam{
+    display: block;
+    width: 50%;
+    float: left;
+    padding-top: 80px;
+}
+.choose-iteam-img{
+    display: block;
+    width: 50%;
+    float: left;
+    padding-top: 80px;
+}
+.choose-iteam-img img{
+    width: 80%;
+    height: 80%;
+    margin-left: 20%;
+}
+.choose-iteam h2{
+    font-size: 40px;
+}
+.choose-iteam-mark{
+    display: block;
+    height: 5px;
+    width: 70px;
+    background-color: blue;
+    margin-top: -27px;
+}
+.choose-iteam-text{
+    font-size: 28px;
+    color: black;
+    margin-top: 50px ;
+}
+.choose-iteam-list{
+    list-style: none;
+    font-size: 25;
+    color: rgb(75, 73, 73);
+    margin-right: auto;
+}
+.choose-iteam-list i{
+    color: black;
+}
+.mark1{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-top: 15px;
+    margin-left: 55%;
+}
+.mark2{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-left: 10px;
+}
+       /* ---------------------------- */
+.container5{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/action-1867052_1920.jpg);
+    background-attachment: fixed;
+    position: relative;
+}
+.icons-content{
+    display: block;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.icons-overlay{
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.icons-iteam{
+    display: block;
+    width: 20%;
+    float: left;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+}
+.icons-iteam i{
+    font-size: xx-large;
+    color: rgb(66, 112, 227) ;
+    margin: 20px 0;
+}
+.icons-iteam-title{
+    font-size: 30px;
+    margin: -1 0;
+}
+.icons-iteam-text{
+    font-size: x-large;
+    margin-top: -1px;
+}
+              /* --------------------------- */
+.container6{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+.pricing-content{
+    overflow: auto;
+}
+.title7{
+    font-size: xx-large;
+    margin-left:  470px;
+    margin-top: 60px;
+}
+.pricing-iteam-mark{
+    height: 5px;
+    width: 70px;
+    background-color: blue;
+    margin-top: -25px;
+    margin-left: 520;
+}
+.basic-iteam{
+    float:left ;
+    width: 30%;
+    border:solid 1px gray;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+}
+.basic-iteam-list{
+    list-style: none;
+    color: gray;
+    margin-right: 25px;
+    line-height: 1.8;
+    font-size: large;
+}
+.basic-iteam-text{
+    font-size: x-large;
+    color: gray;
+}
+.doller-iteam{
+    width: 110px;
+    height: 110px;
+    border: solid 2px rgb(66, 112, 227);
+    border-radius: 50%;
+    margin: auto;
+}
+.doller-iteam-title{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: -5;
+}
+.doller-iteam-text{
+    font-weight: bold;
+}
+.basic-iteam-btn{
+    width: 130px;
+    height: 40px;
+    border: solid 2px rgb(66, 112, 227);
+}
+.bb{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.basic-iteam:after{
+    content: "";
+    width: 0;
+    height: 100;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+}
+.basic-iteam:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.basic-iteam:hover .basic-iteam-text{
+    color: red;
+}
+.basic-iteam:hover .doller-iteam{
+    color: red;
+}
+.basic-iteam:hover .basic-iteam-btn{
+    color: red;
+}
+/* ------------- */
+.container7{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/bleachers-1867992_1920.jpg);
+    background-attachment: fixed;
+    position: relative;
+}
+.accont-content{
+    width: 80%;
+    overflow: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.accont-iteam{
+    width: 40%;
+    float: left;
+    margin-top: 150px;
+
+}
+.accont-iteam img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.accont-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+.accont-iteam-title{
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+.accont-iteam-a{
+    font-size: large;
+    color: blue;
+    margin-top: -4;
+}
+.accont-iteam-text{
+    color: white;
+}
+.ai{
+    margin-left: 20%;
+}
+             /* ------------------------------- */
+.container8{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+.team-content{
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.ti{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.title9{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.team-iteam-mark{
+    height: 5px;
+    width: 70px;
+    background-color: blue;
+    margin-top: -25px;
+    margin-left: 520;
+}
+.team-iteam{
+    float: left;
+    display: block;
+    width: 30%;
+    padding: 15px 13px;
+    text-align: center;
+    position: relative;
+    background-color: rgb(244, 235, 235);
+    margin-top: 60px;
+}
+.team-iteam-img{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.team-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+}
+.team-iteam:hover .team-overlay{
+    visibility: visible;
+    opacity: 0.5;
+}
+.team-overlay a{
+   display: block;
+   background-color:rgb(66, 112, 227) ;
+   width: 40px;
+   height: 40px;
+   color:white ;
+   margin-left: auto;
+}
+.team-overlay a i{
+    line-height: 50px;
+}
+.team-iteam-img img{
+    width: 100%;
+}
+.team-info{
+    margin-top: -10px;
+}
+.team-info-text{
+    color: gray;
+    margin-top: -14px;
+}
+.team-iteam:after{
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: black;
+    opacity: 0;
+}
+.team-iteam:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 0.8s;
+}
+.team-iteam:hover .team-info-title{
+    color: rgb(230, 13, 13);
+}
+.team-iteam:hover .team-info-text{
+    color: rgb(181, 72, 72);
+}
+                                      /* ------------------------ */
+.container9{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+.news-content{
+    overflow: auto;
+   
+}
+.title10{
+    font-size: xx-large;
+    text-align: center;
+}
+.news-iteam-mark{
+    height: 5px;
+    width: 70px;
+    background-color: blue;
+    margin-top: -25px;
+    margin-left: 520;
+}
+.news-iteam{
+    width: 30%; 
+    background-color: rgb(244, 235, 235);
+    float: left;
+    padding: 15px;
+    margin-top: 70px;
+    position: relative;
+}
+.news-iteam img{
+    display: block;
+}
+.news-iteam a i{
+    color:rgb(66, 112, 227) ;
+}
+.news-iteam-icons{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.news-iteam-ti{
+    margin-right: 8px;
+}
+.ni{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.news-iteam-text{
+    color: gray;
+}
+.news-iteam-a{
+    text-decoration: none;
+    color: rgb(66, 112, 227);
+}
+.news-iteam:after{
+    content: "";
+    width: 0;
+    height: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color:rgb(66, 112, 227) ;
+    opacity: 0;
+}
+.news-iteam:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 0.7s;
+}
+      /* -------------------------------------------------- */
+.container10{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(70, 68, 68);
+    position: relative;
+}
+.finish-content{
+    
+}
+.finish-iteam{
+    /* width: 120px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.finish-iteam img{
+    width: 120px;
+    height: 90px;
+}
+.finish-iteam-icons a i{
+    width: 50;
+    height: 50;
+    border-radius: 50%;
+    margin: 10px 0;
+    line-height: 50px;
+    color: white;
+    background-color:rgb(66, 112, 227) ;
+}
+.finish-iteam-copy{
+    color: gray;
+    font-size: 15px;
+}
+.finish-iteam-icons a i:hover {
+    opacity: 0.8;
+}
+
+
